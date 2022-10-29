@@ -13339,8 +13339,8 @@ body.boxed-wrapper {
   border-radius: 10px;
   height: 60px;
   border: 1px solid #e0e4e8;
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
+  -webkit-appearance: 'textfield';
+  -moz-appearance: 'textfield';
   font-family: var(--insur-font);
   padding-left: 30px;
   outline: none;

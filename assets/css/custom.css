@@ -60,6 +60,10 @@
         a btn-primary .tiles-btn{
             margin-top: 10px !important;
         }
+
+        .feature-two__single{
+            margin-bottom: 20px;
+        }
     }
     
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {

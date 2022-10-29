@@ -543,7 +543,7 @@ ul {
 }
 
 .main-header__top-address-list li .text p {
-  font-size: 13px;
+  font-size: 16px;
   color: #97a2b7;
   line-height: 15px;
   letter-spacing: var(--insur-letter-spacing);

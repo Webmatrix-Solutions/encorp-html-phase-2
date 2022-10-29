@@ -64,6 +64,7 @@
         .feature-two__single{
             margin-bottom: 20px;
         }
+
     }
     
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -100,6 +101,13 @@
         
     
     
+    }
+
+    @media (min-width: 360px) and (max-width: 678px) {
+        
+        .icon-bar{
+            display: none;
+        }
     }
     
     

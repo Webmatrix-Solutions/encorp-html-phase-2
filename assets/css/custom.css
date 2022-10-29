@@ -1,40 +1,103 @@
 @media (min-width: 1200px) {
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1440px;
-}
-
-h5.banner-sub-title{
-    color: #fd7402;
-}
-
-.banner-quote{
-    font-style: italic;
-    color: #3241ff;
-}
-
-.main-slider-three__title{
-    font-size: 50px;
-    line-height: none !important;
-    max-width: 75%;
-}
-
-@media only screen and (max-width: 767px) {
-
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1440px;
+    }
+    
+    h5.banner-sub-title {
+        color: #fd7402;
+        font-size: 40px;
+    }
+    
     .banner-quote{
         font-style: italic;
         color: #3241ff;
     }
-}
-
-.feature-three__content .tiles-btn{
-    background-color: #3241ff;
-    margin-top: 10px;
-}
-
-@media (min-width: 375px) {
     
-    a btn-primary .tiles-btn{
-        margin-top: 10px !important;
+    .main-slider-three__title {
+        font-size: 22px;
+        line-height: none !important;
+        max-width: 75%;
     }
-}
-
+    }
+    
+    @media only screen and (max-width: 767px) {
+    
+        .banner-quote{
+            font-style: italic;
+            color: #3241ff;
+        }
+        .main-slider-three .inner-contact-form {
+            position: relative;
+            top: 0;
+            right: 0;
+            width: 100%;
+            transform: initial;
+            margin-bottom: 35px;
+        }
+        .main-slider-three .choose-wrap ul li{
+            float: left;
+            width: 50%;
+            text-align: center;
+          }
+          h5.banner-sub-title {
+            color: #fd7402;
+            font-size: 30px;
+        }
+        .main-slider-three__title {
+            font-size: 20px;
+            line-height: none !important;
+            max-width: 100%;
+        }
+    }
+    
+    .feature-three__content .tiles-btn{
+        background-color: #3241ff;
+        margin-top: 10px;
+    }
+    
+    @media (min-width: 375px) {
+        
+        a btn-primary .tiles-btn{
+            margin-top: 10px !important;
+        }
+    }
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
+    
+        .main-slider-three .inner-contact-form{
+            width: 50%;
+            height: auto;
+            right: 2%;
+            margin-top: -12%;
+        }
+    
+        h5.banner-sub-title {
+            color: #fd7402;
+            font-size: 30px;
+        }
+    
+        .main-slider-three__title{
+            font-size: 23px;
+            line-height: 33px;
+            margin-top: 2rem;
+        }
+    
+        .main-slider-three .choose-wrap{
+            padding: 5px;
+            margin: 0px 15px;
+        }
+    
+        .main-slider-three .choose-wrap ul li a {
+    
+            max-width: 200px;
+            display: inline-block;
+    
+        }
+        
+    
+    
+    }
+    
+    
+    
+    

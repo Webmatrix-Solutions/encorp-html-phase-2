@@ -386,7 +386,7 @@ ul {
 }
 
 .bootstrap-select .dropdown-menu>li.selected>a {
-  background: var(--insur-primary);
+  background: #fd7402;
   color: #fff;
 }
 
@@ -395,7 +395,7 @@ ul {
   font-weight: 500;
   padding: 10px 20px;
   color: #ffffff;
-  background: var(--insur-base);
+  background: black;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -3295,7 +3295,7 @@ ul {
 .why-choose-one {
   position: relative;
   display: block;
-  background-color: var(--insur-black);
+  background-color: #000000;
   padding: 120px 0 110px;
   overflow: hidden;
   z-index: 1;
@@ -3432,7 +3432,7 @@ ul {
 .why-choose-one__single {
   position: relative;
   display: block;
-  background-color: #111d32;
+  background-color: #fd7402;
   padding: 35px 20px 32px;
   overflow: hidden;
 }
@@ -3504,7 +3504,7 @@ ul {
 
 .why-choose-one__list-text {
   font-size: 14px;
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 24px;
   letter-spacing: var(--insur-letter-spacing);
 }
@@ -3763,14 +3763,14 @@ ul {
   height: 60px;
   outline: none !important;
   border-radius: var(--insur-bdr-radius);
-  border: 1px solid #dfe3e7;
+  border: 1px solid #fd7402;
   background-color: rgb(255, 255, 255) !important;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
   margin: 0;
   padding: 0;
   padding-left: 30px;
   padding-right: 30px;
-  color: var(--insur-gray) !important;
+  color: black !important;
   font-size: 16px;
   line-height: 60px;
   font-weight: 400;
@@ -5192,7 +5192,7 @@ ul {
 
 .footer-widget__phone-icon span {
   font-size: 37px;
-  color: var(--insur-primary);
+  color: #fd7402;
   position: relative;
   display: inline-block;
 }
@@ -8158,9 +8158,9 @@ ul {
   height: 131px;
   padding: 6px;
   border-radius: 50%;
-  background-image: -moz-linear-gradient(-29deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
-  background-image: -webkit-linear-gradient(-29deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
-  background-image: -ms-linear-gradient(-29deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
+  background-image: -moz-linear-gradient(0deg, rgba(253,116,2,1) 44%, rgba(145,146,151,1) 58%);
+  background-image: -webkit-linear-gradient(0deg, rgba(253,116,2,1) 44%, rgba(145,146,151,1) 58%);
+  background-image: -ms-linear-gradient(0deg, rgba(253,116,2,1) 44%, rgba(145,146,151,1) 58%);
 }
 
 .testimonial-three__client-img>img {
@@ -8285,7 +8285,7 @@ ul {
 }
 
 .testimonial-three__carousel.owl-carousel .owl-dot.active {
-  background-color: var(--insur-primary);
+  background-color: #fd7402;
   opacity: 1;
 }
 
@@ -10025,7 +10025,7 @@ ul {
 .comment-form__input-box input[type="email"] {
   height: 60px;
   width: 100%;
-  border: none;
+  border: 1px solid #fd7402;
   background-color: var(--insur-extra);
   padding-left: 30px;
   padding-right: 30px;
@@ -10045,7 +10045,7 @@ ul {
   width: 100%;
   background-color: var(--insur-extra);
   padding: 15px 30px 30px;
-  border: none;
+  border: 1px solid #fd7402;
   border-radius: var(--insur-bdr-radius);
   outline: none;
   margin-bottom: 0px;
@@ -10093,7 +10093,7 @@ ul {
   width: 50px;
   border: 2px solid var(--insur-bdr-color);
   border-radius: 50%;
-  color: var(--insur-primary);
+  color: #fd7402;
   font-size: 19px;
   top: 5px;
   left: 0;
@@ -10128,7 +10128,7 @@ ul {
 }
 
 .contact-page__call-number:hover {
-  color: var(--insur-primary);
+  color: #000000;
 }
 
 .contact-page__email {
@@ -10140,7 +10140,7 @@ ul {
 }
 
 .contact-page__email:hover {
-  color: var(--insur-primary);
+  color:  #000000;
 }
 
 .contact-page__location-text {

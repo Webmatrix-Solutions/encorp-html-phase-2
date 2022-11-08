@@ -544,13 +544,13 @@ ul {
 
 .main-header__top-address-list li .text p {
   font-size: 16px;
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 15px;
   letter-spacing: var(--insur-letter-spacing);
 }
 
 .main-header__top-address-list li .text p a {
-  color: #97a2b7;
+  color: #ffffff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -2559,7 +2559,8 @@ ul {
   left: 0;
   right: 0;
   content: "";
-  background-color: rgba(17, 29, 50, .60);
+  /* background-color: rgba(17, 29, 50, .60); */
+  background-color: rgba(48, 46, 45, 0.10);
   z-index: -1;
 }
 
@@ -3118,7 +3119,7 @@ ul {
 .services-one {
   position: relative;
   display: block;
-  background-color: var(--insur-extra);
+  background-color: #f3f3f3;
   padding: 120px 0 90px;
 }
 
@@ -4832,7 +4833,7 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: var(--insur-black);
+  background-color: #000000;
   z-index: 1;
 }
 
@@ -4843,7 +4844,7 @@ ul {
   left: 0;
   width: 1709px;
   mix-blend-mode: color-burn;
-  opacity: .15;
+  /* opacity: .15; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4874,7 +4875,7 @@ ul {
 }
 
 .footer-widget__about-text {
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 26px;
   font-size: 15px;
   letter-spacing: var(--insur-letter-spacing);
@@ -5000,13 +5001,13 @@ ul {
 
 .footer-widget__contact-list li .text p {
   font-size: 15px;
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 25px;
   letter-spacing: var(--insur-letter-spacing);
 }
 
 .footer-widget__contact-list li .text p a {
-  color: #97a2b7;
+  color: #ffffff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -5032,7 +5033,7 @@ ul {
 
 .footer-widget__open-hour-text {
   font-size: 15px;
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 26px;
   letter-spacing: var(--insur-letter-spacing);
 }
@@ -5127,7 +5128,7 @@ ul {
 }
 
 .footer-widget__newsletter-text {
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 26px;
   font-size: 15px;
   letter-spacing: var(--insur-letter-spacing);
@@ -5218,7 +5219,7 @@ ul {
 
 .footer-widget__phone-text p {
   font-size: 14px;
-  color: #97a2b7;
+  color: #ffffff;
   line-height: 26px;
   letter-spacing: var(--insur-letter-spacing);
 }
@@ -6233,6 +6234,7 @@ ul {
   border-top: 1px solid var(--insur-bdr-color);
   padding: 59px 0 60px;
   z-index: 1;
+  background-color: #070e1b;
 }
 
 .brand-one__title {
@@ -6244,7 +6246,7 @@ ul {
 
 .brand-one__title h2 {
   font-size: 16px;
-  color: var(--insur-black);
+  color: #ffffff;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: var(--insur-letter-spacing);
